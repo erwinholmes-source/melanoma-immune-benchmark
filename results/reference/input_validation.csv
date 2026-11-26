@@ -1,0 +1,10 @@
+cohort,test,max_abs_difference,passed,n_compared_genes
+GSE215868,compact_four_gene_reproduction,2.220446049250313e-16,True,
+GSE91061,compact_four_gene_reproduction,2.220446049250313e-16,True,
+GSE91061,full_vs_compact_expression,0.0,True,755.0
+GSE78220,compact_four_gene_reproduction,2.220446049250313e-16,True,
+GSE78220,full_vs_compact_expression,0.0,True,781.0
+Liu2019,compact_four_gene_reproduction,1.1102230246251565e-15,True,
+Liu2019,full_vs_compact_expression,0.0,True,766.0
+Gide2019,compact_four_gene_reproduction,2.220446049250313e-16,True,
+Gide2019,full_vs_compact_expression,0.0,True,772.0

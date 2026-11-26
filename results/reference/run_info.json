@@ -1,0 +1,107 @@
+{
+  "analysis": "v19 post hoc three-tier reference and single-sample-rank sensitivity",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.18.1",
+  "hgnc_download": {
+    "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+    "retrieved": "2026-09-07T03:32:49.738763+00:00",
+    "file": "hgnc_complete_set.txt",
+    "bytes": 16903161,
+    "sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20"
+  },
+  "universe_sizes": {
+    "broad_protein_coding": 15561,
+    "historical733": 733,
+    "inflamed142": 142
+  },
+  "common_panel_membership": {
+    "Four-gene": [
+      "CD7",
+      "CXCL9",
+      "LYZ",
+      "STAT1"
+    ],
+    "IFN-4": [
+      "IFNG",
+      "IDO1",
+      "CXCL10",
+      "HLA-DRA"
+    ],
+    "ICR-20": [
+      "IFNG",
+      "TBX21",
+      "CD8B",
+      "CD8A",
+      "IL12B",
+      "STAT1",
+      "IRF1",
+      "CXCL9",
+      "CXCL10",
+      "GNLY",
+      "PRF1",
+      "GZMA",
+      "GZMB",
+      "GZMH",
+      "CD274",
+      "CTLA4",
+      "FOXP3",
+      "IDO1",
+      "PDCD1"
+    ],
+    "GEP-18": [
+      "CD27",
+      "CD274",
+      "CD276",
+      "CD8A",
+      "CMKLR1",
+      "CXCL9",
+      "CXCR6",
+      "HLA-DQA1",
+      "HLA-DRB1",
+      "HLA-E",
+      "IDO1",
+      "LAG3",
+      "NKG7",
+      "PDCD1LG2",
+      "PSMB10",
+      "STAT1",
+      "TIGIT"
+    ],
+    "Chemokine-12": [
+      "CCL2",
+      "CCL8",
+      "CCL19",
+      "CCL21",
+      "CXCL9",
+      "CXCL10",
+      "CXCL11",
+      "CXCL13"
+    ],
+    "TLS-9": [
+      "CD79B",
+      "CD1D",
+      "LAT",
+      "SKAP1",
+      "CETP",
+      "EIF1AY",
+      "RBP5",
+      "PTGDS"
+    ],
+    "APM-7": [
+      "B2M",
+      "HLA-A",
+      "HLA-B",
+      "HLA-C",
+      "TAP1",
+      "TAPBP"
+    ]
+  },
+  "source_validation_passed": true,
+  "historical_random_AUC_reproduction_passed": true,
+  "historical_background_is_conditional_on_five_cohort_expression": true,
+  "new_broad_background_uses_four_cohort_expression_without_outcomes": true,
+  "rank_method_note": "Mean signed within-sample centered percentiles over one frozen common protein-coding universe; source transformed values retained; not the original weighted/algorithmic signature implementations."
+}

@@ -1,0 +1,94 @@
+{
+  "cohorts": {
+    "GSE91061": {
+      "n": 49,
+      "responders": 10
+    },
+    "GSE78220": {
+      "n": 26,
+      "responders": 14
+    },
+    "Liu2019": {
+      "n": 102,
+      "responders": 41
+    },
+    "Gide2019": {
+      "n": 72,
+      "responders": 39
+    }
+  },
+  "training_patients": 249,
+  "responders": 104,
+  "gene_sets": {
+    "IFN4_rank": [
+      "IFNG",
+      "IDO1",
+      "CXCL10",
+      "HLA-DRA"
+    ],
+    "APM6_rank": [
+      "B2M",
+      "HLA-A",
+      "HLA-B",
+      "HLA-C",
+      "TAP1",
+      "TAPBP"
+    ]
+  },
+  "rank_universe_n": 733,
+  "predictor_mean": [
+    0.04165637961682797,
+    0.3843374408380333
+  ],
+  "predictor_sample_sd": [
+    0.12563438408029604,
+    0.08008350340904836
+  ],
+  "models": {
+    "IFN4_rank": {
+      "predictors": [
+        "IFN4_rank"
+      ],
+      "intercept": -0.3548689728289013,
+      "slopes": [
+        0.5416796476597631
+      ],
+      "max_abs_gradient": 5.229150445984487e-14
+    },
+    "IFN4_APM6_rank": {
+      "predictors": [
+        "IFN4_rank",
+        "APM6_rank"
+      ],
+      "intercept": -0.35422785685443414,
+      "slopes": [
+        0.5918727964565179,
+        -0.18831886794253103
+      ],
+      "max_abs_gradient": 2.853273173286652e-14
+    }
+  },
+  "ridge_lambda": 1.0,
+  "training_files": {
+    "GSE91061": {
+      "expression_sha256": "ac69e754f36226a24c529fa8df6ae116fb0fbf30e365ed96757f9ee92d0dcec1",
+      "clinical_sha256": "ff3464c3768ec958f50a3a3da9b2f00d54d032d86e97d22adb4dd8f6dc712fcc"
+    },
+    "GSE78220": {
+      "expression_sha256": "270fd5b671e7a98e3baed0c680ff13f87129f45375d8a6a273605f7d1c65a98e",
+      "clinical_sha256": "8d0bbf733c8cabd03baaed0b931187ae955388f06819e7b1a8f29c3ad99ee874"
+    },
+    "Liu2019": {
+      "expression_sha256": "d2a37b32abb1b2eb6e76403ab6dc360bee1f5c76eb6356d2ecce6e93371f937f",
+      "clinical_sha256": "1e3b15eeae0129d6fafe0ffbfbd036687a495f00d6b6cc4e901bd9d30460897d"
+    },
+    "Gide2019": {
+      "expression_sha256": "b6daa27e8fd1e3b267090f639090051fc88f588ecf0a3b38aa55ff48730c2116",
+      "clinical_sha256": "449fce421068ac08b05ac0f8e0563fbf7d97e1ed25cd9a594cfad84155dec793"
+    }
+  },
+  "hgnc_sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20",
+  "estimation": "One pooled intercept, unit patient weights, fixed ridge slopes, no study indicators",
+  "feature": "Within-specimen mean centered percentile rank across the archived 733 genes; ties averaged.",
+  "rank_universe_sha256": "b8dbc566a3766506cabd88634ae0f85f94eff7a3c8f94dabbbcd2501cfcc13f5"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "patients": 55,
+  "responders": 14,
+  "bootstrap_draws": 5000,
+  "outcome_stratified_bootstrap_seed": 20261123,
+  "scope": "Pairwise AUC vs Mann\u2013Whitney U on raw linear score ranks and each fixed bootstrap resample.",
+  "max_abs_point_error": 0.0,
+  "max_abs_bootstrap_draw_error": 0.0,
+  "IFN4_auc_and_interval_reproduce_original_common_intercept_experiment": true,
+  "external_parameters_estimated": 0
+}

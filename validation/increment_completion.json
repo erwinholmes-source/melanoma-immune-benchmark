@@ -1,0 +1,59 @@
+{
+  "completed": true,
+  "rows": 24,
+  "bootstrap_fits_total": 12000,
+  "all_four_gene_checks": [
+    [
+      {
+        "check": "four_gene_primary_probability_reproduction",
+        "max_absolute_difference": 1.3877787807814457e-16,
+        "passed": true
+      },
+      {
+        "check": "four_gene_all_bootstrap_metrics_reproduction",
+        "n_draws": 500,
+        "max_absolute_difference": 1.4051260155412137e-16,
+        "passed": true
+      }
+    ],
+    [
+      {
+        "check": "four_gene_primary_probability_reproduction",
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "passed": true
+      },
+      {
+        "check": "four_gene_all_bootstrap_metrics_reproduction",
+        "n_draws": 500,
+        "max_absolute_difference": 2.0469737016526324e-16,
+        "passed": true
+      }
+    ],
+    [
+      {
+        "check": "four_gene_primary_probability_reproduction",
+        "max_absolute_difference": 1.6653345369377348e-16,
+        "passed": true
+      },
+      {
+        "check": "four_gene_all_bootstrap_metrics_reproduction",
+        "n_draws": 500,
+        "max_absolute_difference": 1.717376241217039e-16,
+        "passed": true
+      }
+    ],
+    [
+      {
+        "check": "four_gene_primary_probability_reproduction",
+        "max_absolute_difference": 2.220446049250313e-16,
+        "passed": true
+      },
+      {
+        "check": "four_gene_all_bootstrap_metrics_reproduction",
+        "n_draws": 500,
+        "max_absolute_difference": 1.5092094240998222e-16,
+        "passed": true
+      }
+    ]
+  ]
+}

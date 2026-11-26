@@ -1,0 +1,56 @@
+[
+  {
+    "file": "riaz_rld.csv",
+    "url": "https://raw.githubusercontent.com/riazn/bms038_analysis/master/data/rld.BMS038.20171011.csv",
+    "sha256": "ac69e754f36226a24c529fa8df6ae116fb0fbf30e365ed96757f9ee92d0dcec1",
+    "bytes": 41025874
+  },
+  {
+    "file": "riaz_sample_table.csv",
+    "url": "https://raw.githubusercontent.com/riazn/bms038_analysis/master/data/SampleTableCorrected.9.19.16.csv",
+    "sha256": "775106fc1d43684bbd22414d179c4af08036de32cc2edacb1f50ed38768a4496",
+    "bytes": 11689
+  },
+  {
+    "file": "GSE78220_PatientFPKM.xlsx",
+    "url": "https://raw.githubusercontent.com/VietHuynh3001/MELANOMA/78770ee3527fff857e5ee34c508979a6ee0ff697/melanoma/GSE78220/GSE78220_PatientFPKM.xlsx",
+    "sha256": "ae3b044f23a0a4cd2859da36726a220856c35216a169c17f93dfc3bd20b04de6",
+    "bytes": 7145318
+  },
+  {
+    "file": "GSE78220_series_matrix.txt",
+    "url": "https://raw.githubusercontent.com/VietHuynh3001/MELANOMA/78770ee3527fff857e5ee34c508979a6ee0ff697/melanoma/GSE78220/GSE78220_series_matrix.txt",
+    "sha256": "392b48f79222427f1a16a919b59d3d26cfc69370d30850562a2fe55ef92ddfe6",
+    "bytes": 44469
+  },
+  {
+    "file": "RNA_TPM_matrix.txt",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-019-0654-5/MediaObjects/41591_2019_654_MOESM3_ESM.txt",
+    "sha256": "80d3a6e6ec7a2c89101ed9f1c9078dda32c2f7152fb20d0e24edcadf37871553",
+    "bytes": 35614392
+  },
+  {
+    "file": "Supplemental_Table_1_wAge.tsv",
+    "url": "https://raw.githubusercontent.com/vanallenlab/schadendorf-pd1/master/data/Supplemental_Table_1_wAge.tsv",
+    "sha256": "5a15c742c1813d618a58f248f4298ac3700f3c53734bbc2f57d7c8e8c86b348c",
+    "bytes": 27668
+  },
+  {
+    "file": "Gide_data.RData",
+    "url": "https://raw.githubusercontent.com/dukekuang/PASS-ON-codes/32c06ed7e0df481b59e0dcb9902f77d84280f3f8/data/Gide_data.RData",
+    "sha256": "1e425876f630bc1af554b9aa47b8e38695e0bfe0be21a2e86fd7c4fc84653470",
+    "bytes": 12398955
+  },
+  {
+    "file": "GSE215868_family.soft.gz",
+    "url": "https://huggingface.co/datasets/Liu-Hy/GenoTEX/resolve/main/input/GEO/Melanoma/GSE215868/GSE215868_family.soft.gz",
+    "sha256": "562e15443ef92ecc24bc53ef488b3d9fc1e45ec07ad06883a576bd6870d1a758",
+    "bytes": 683547
+  },
+  {
+    "file": "GSE215868_series_matrix.txt.gz",
+    "url": "https://huggingface.co/datasets/Liu-Hy/GenoTEX/resolve/main/input/GEO/Melanoma/GSE215868/GSE215868_series_matrix.txt.gz",
+    "sha256": "8d959dcc7177e29a6484b6c473519368965d71bb10ff2d0945e172ac9877a69f",
+    "bytes": 462949
+  }
+]

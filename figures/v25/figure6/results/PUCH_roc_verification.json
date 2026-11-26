@@ -1,0 +1,20 @@
+{
+  "N": 55,
+  "responders": 14,
+  "ridge_penalty": 1,
+  "fixed_rank_universe_genes": 733,
+  "models": {
+    "IFN4_rank": {
+      "vertices": 25,
+      "ROC_trapezoidal_AUC": 0.764808362369338,
+      "pairwise_AUC": 0.764808362369338,
+      "Brier": 0.16456815177058823
+    },
+    "IFN4_APM6_rank": {
+      "vertices": 20,
+      "ROC_trapezoidal_AUC": 0.7473867595818814,
+      "pairwise_AUC": 0.7473867595818815,
+      "Brier": 0.16517253686609157
+    }
+  }
+}

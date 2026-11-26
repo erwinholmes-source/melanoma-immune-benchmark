@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "n_training_patients": 249,
+  "responders": 104,
+  "external_rows_loaded": 0,
+  "input_checks": "Frozen rank universe, HGNC file and all eight training expression/clinical file hashes matched.",
+  "scope": "Python average ranks and pairwise AUC, direct weighted Newton ridge fits versus base-R ranks, U-statistic and nlminb.",
+  "summary_rows": 5,
+  "coefficient_rows": 12,
+  "omission_rows": 4,
+  "max_abs_summary_error": 1.7763568394002505e-15,
+  "max_abs_coefficient_error": 8.745976054491678e-09,
+  "max_abs_python_gradient": 8.836709142201471e-12,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3"
+}

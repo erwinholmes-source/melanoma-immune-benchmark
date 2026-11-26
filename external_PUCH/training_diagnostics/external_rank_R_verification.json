@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "n": 55,
+  "responders": 14,
+  "max_abs_point_error": 2.220446049250313e-16,
+  "verified": "Both AUCs and their paired point difference from external features rebuilt in R.",
+  "R_version": "R version 4.6.1 (2026-06-24)"
+}

@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "scope": "author-source reconstructed workspace; public vs private runners",
+  "checks": [
+    {
+      "file": "random_reference_summary.csv",
+      "exact": true
+    },
+    {
+      "file": "scoring_auc.csv",
+      "exact": true
+    },
+    {
+      "file": "scoring_correlations.csv",
+      "exact": true
+    },
+    {
+      "file": "rank_vs_z_paired_auc.csv",
+      "exact": true
+    },
+    {
+      "file": "scoring_mean_cohort_auc.csv",
+      "exact": true
+    },
+    {
+      "file": "panel_coverage.csv",
+      "exact": true
+    },
+    {
+      "file": "random_reference_auc.npz",
+      "exact": true,
+      "arrays": 15
+    },
+    {
+      "file": "scoring_auc_bootstrap.npz",
+      "exact": true,
+      "arrays": 84
+    }
+  ],
+  "patient_score_files_absent": true,
+  "no_local_absolute_paths_in_JSON": true,
+  "n_reproduced_numpy_arrays": 99,
+  "n_exact_csv_files": 6,
+  "note": "Complete public entry point executed using full processed expression reconstructed from author-source artifacts and score-free clinical/compact v7 inputs. The original output tables were used only for post-run comparison."
+}

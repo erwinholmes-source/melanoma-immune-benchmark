@@ -1,0 +1,13 @@
+{
+  "new_panel_comparisons": 20,
+  "auc_intervals_all_span_zero": true,
+  "brier_intervals_all_span_zero": true,
+  "bootstrap_total": 12000,
+  "failures": 0,
+  "fallbacks": 0,
+  "constant_folds": 0,
+  "new_delta_auc_range": [
+    -0.0952380952380952,
+    0.2559523809523809
+  ]
+}

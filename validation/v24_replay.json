@@ -1,0 +1,76 @@
+{
+  "release": "v24",
+  "passed": true,
+  "source_reconstruction": {
+    "source_files_with_verified_SHA256": 9,
+    "cached_original_source_files": true
+  },
+  "historical_aggregate_checks": {
+    "passed": true,
+    "checks": 346,
+    "maximum_error": 1.1102230246251565e-16,
+    "scope": "Aggregate arithmetic only; no patient data were needed."
+  },
+  "historical_core_reference_csvs_identical": 6,
+  "historical_reference_arrays_identical": 99,
+  "cross_validated_increment": {
+    "passed": true,
+    "comparisons": 24,
+    "bootstrap_draws_per_comparison": 500,
+    "max_abs_aggregate_difference": 1.1102230246251565e-16,
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scope": "All 24 point estimates and 95% interval endpoints rebuilt from prepared source inputs and regenerated patient bootstrap multiplicities. No private precomputed weights, predictions or patient-score tables were required."
+  },
+  "increment_bootstrap_tables_compared": 24,
+  "increment_bootstrap_max_abs_difference": 0.0,
+  "TCGA_external_four_gene_pool": {
+    "source_inputs_sha256_verified": 2,
+    "eligibility_table_and_aggregate_results_reproduced": true,
+    "three_draw_files_identical_after_decompression": true
+  },
+  "published_gene_sets_two_pools": {
+    "summary_comparisons": 12,
+    "identical_rebuilt_array_count": 62,
+    "all_tables_identical": true,
+    "R_draws_per_cohort_checked": 40,
+    "maximum_R_AUC_difference": 9.992007221626409e-16
+  },
+  "PUCH": {
+    "input_files_with_verified_Git_blob_hashes": 2,
+    "initial_and_extended_aggregate_files_identical": true,
+    "external_ridge_sensitivity_rows_identical": 9,
+    "ridge_penalties": [
+      0.1,
+      1,
+      10
+    ],
+    "independent_R_point_verification": {
+      "status": "passed",
+      "tools": "R version 4.6.1 (2026-06-24)",
+      "patient_populations": [
+        249,
+        55
+      ],
+      "standalone_rows_checked": 14,
+      "standalone_auc_max_abs_error": 4.440892098500626e-16,
+      "spearman_max_abs_error": 6.661338147750939e-16,
+      "frozen_coefficient_max_abs_error": 1.143529715363911e-14,
+      "external_frozen_auc_max_abs_error": 4.440892098500626e-16,
+      "external_frozen_brier_max_abs_error": 7.216449660063518e-16,
+      "scope": "Independent raw-to-point-estimate replay (base R ranks/U-statistic and nlminb ridge optimization). Main runner separately checks previously archived two-score intervals; this R replay does not verify the new interval endpoints."
+    }
+  },
+  "figure_replay": {
+    "v24_figures": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "submitted_PNG_bytes_identical": true,
+    "submitted_PDF_rasterizations_identical_at_dpi": 90,
+    "figure2_and_5_data_CSVs_identical": true
+  },
+  "notes": "Replays used an extracted archive and newly prepared workspace. Public source availability was not retested. Existing cellular figures 3 and 4 were carried forward."
+}

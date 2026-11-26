@@ -1,0 +1,4 @@
+The bundled HGNC nomenclature snapshot was retrieved from the HGNC public download service on 7 September 2026. HGNC data are released under CC0 1.0.
+Source and snapshot hash: resources/mapping_manifest.json
+License information: https://www.genenames.org/about/license/
+CC0: https://creativecommons.org/publicdomain/zero/1.0/

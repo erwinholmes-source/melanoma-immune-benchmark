@@ -1,0 +1,103 @@
+{
+  "release": "v25",
+  "passed": true,
+  "source": "New four-cohort workspace prepared from nine cached original source files with matching hashes. Original PUCH and frozen references were checked by their archived hashes.",
+  "inherited_aggregate_checks": {
+    "passed": true,
+    "checks": 346,
+    "maximum_error": 1.1102230246251565e-16,
+    "scope": "Aggregate arithmetic only; no patient data were needed."
+  },
+  "reference_and_ridge_aggregate_recheck": {
+    "two_pool_summary_rows_checked": 12,
+    "external_model_sensitivity_rows_checked": 9,
+    "passed": true
+  },
+  "new_aggregate_check": {
+    "passed": true,
+    "primary_external_ROC_AUCs": {
+      "IFN4_rank": 0.764808362369338,
+      "IFN4_APM6_rank": 0.7473867595818814
+    },
+    "training_fits": 12,
+    "training_omissions": 4,
+    "post_hoc_external_rank_AUC_difference": 0.015679442508711006
+  },
+  "reproduced_reference_summaries": 6,
+  "reproduced_reference_arrays": 99,
+  "patient_bootstrap_increment_replay": {
+    "passed": true,
+    "comparisons": 24,
+    "bootstrap_draws_per_comparison": 500,
+    "max_abs_aggregate_difference": 1.1102230246251565e-16,
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scope": "All 24 point estimates and 95% interval endpoints rebuilt from prepared source inputs and regenerated patient bootstrap multiplicities. No private precomputed weights, predictions or patient-score tables were required."
+  },
+  "two_pool_reproduced_files": [
+    "common_panel_observed_auc.csv",
+    "independent_R_checks.csv",
+    "panel_reference_comparison.csv",
+    "reference_draws.npz",
+    "spot_check_sets.csv",
+    "verification.json"
+  ],
+  "original_PUCH_transfer_reproduced_files": [
+    "PUCH_frozen_model_performance.csv",
+    "PUCH_panel_results.csv",
+    "frozen_models.json",
+    "independent_R_verification.json",
+    "verification.json"
+  ],
+  "original_three_penalty_external_results_identical": true,
+  "external_primary_ROC_files_reproduced": [
+    "PUCH_roc_verification.json",
+    "PUCH_roc_vertices.csv"
+  ],
+  "submitted_Figure6_PNG_bytes_identical": true,
+  "training_and_post_hoc_rank_results_reproduced": [
+    "cohort_rank_summaries.csv",
+    "external_cohort_intercept_rank_auc.csv",
+    "external_rank_R_verification.json",
+    "external_rank_verification.json",
+    "leave_one_cohort_out.csv",
+    "training_model_coefficients.csv",
+    "verification.json"
+  ],
+  "training_diagnostic_replay": {
+    "status": "passed",
+    "n_training_patients": 249,
+    "responders": 104,
+    "external_rows_loaded": 0,
+    "input_checks": "Frozen rank universe, HGNC file and all eight training expression/clinical file hashes matched.",
+    "scope": "Python average ranks and pairwise AUC, direct weighted Newton ridge fits versus base-R ranks, U-statistic and nlminb.",
+    "summary_rows": 5,
+    "coefficient_rows": 12,
+    "omission_rows": 4,
+    "max_abs_summary_error": 1.7763568394002505e-15,
+    "max_abs_coefficient_error": 8.745976054491678e-09,
+    "max_abs_python_gradient": 8.836709142201471e-12,
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "post_hoc_external_rank_replay": {
+    "status": "passed",
+    "patients": 55,
+    "responders": 14,
+    "bootstrap_draws": 5000,
+    "outcome_stratified_bootstrap_seed": 20261123,
+    "scope": "Pairwise AUC vs Mann\u2013Whitney U on raw linear score ranks and each fixed bootstrap resample.",
+    "max_abs_point_error": 0.0,
+    "max_abs_bootstrap_draw_error": 0.0,
+    "IFN4_auc_and_interval_reproduce_original_common_intercept_experiment": true,
+    "external_parameters_estimated": 0
+  },
+  "post_hoc_external_rank_independent_R": {
+    "status": "passed",
+    "n": 55,
+    "responders": 14,
+    "max_abs_point_error": 2.220446049250313e-16,
+    "verified": "Both AUCs and their paired point difference from external features rebuilt in R.",
+    "R_version": "R version 4.6.1 (2026-06-24)"
+  }
+}

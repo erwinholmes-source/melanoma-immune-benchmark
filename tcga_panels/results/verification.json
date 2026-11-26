@@ -1,0 +1,17 @@
+{
+  "observed_cohort_panel_AUCs_checked": 20,
+  "internal_percentiles_and_tail_probabilities_reproduced": 6,
+  "external_four_gene_draws_reproduced_in_each_primary_cohort": 10000,
+  "direct_pair_aucs_per_size_sign_pool_and_cohort": 40,
+  "seed_by_size": "20261500 + size",
+  "negative_position_seed_sequence": [
+    20261105,
+    11,
+    17,
+    1
+  ],
+  "pool_audit_sha256": "d2601c6cc99970cb25cbac7c062e4241c63f425c2cc26fc538a6ece9b44040d0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.18.1"
+}

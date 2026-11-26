@@ -1,0 +1,30 @@
+{
+  "sample_selection": "TCGA-SKCM RNA-profiled metastatic specimens, one per patient",
+  "tcga_n": 367,
+  "candidate_genes": 733,
+  "tcga_genes_with_correlation": 731,
+  "genes_per_pool": {
+    "tcga_cd8a": 242,
+    "tcga_cd8a_without_panel": 238,
+    "historical142_without_panel": 138
+  },
+  "n_shared_between_original142_and_tcga": 141,
+  "panel_genes_in_tcga_pool": [
+    "CD7",
+    "CXCL9",
+    "LYZ",
+    "STAT1"
+  ],
+  "tcga_source_sha256": {
+    "data_mrna_seq_v2_rsem.txt": "de12a5483d43195976e022b5c81c41ed4f5daa6fe4a09613e7db3f0d7c7bec4c",
+    "data_clinical_sample.txt": "1da0e866ba04db38a3efc98da78bff1ffb6204558859c7546683f791995fc90d"
+  },
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.18.1",
+  "validation": {
+    "original_observed_auc_reproduced_all_cohorts": true,
+    "all_10000_historical_inflamed_draws_reproduced_all_cohorts": true,
+    "first_20_draws_each_pool_directly_checked_in_all_cohorts": true
+  }
+}

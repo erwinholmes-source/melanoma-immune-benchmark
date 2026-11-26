@@ -1,0 +1,116 @@
+[
+  {
+    "path": "source-workspace/v7_work/mapping/hgnc_complete_set.txt",
+    "role": "gene_annotation",
+    "bytes": 16903161,
+    "sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20"
+  },
+  {
+    "path": "source-workspace/melanoma_revision_work/external_audit/riaz_rld.csv",
+    "role": "full_expression",
+    "bytes": 41025874,
+    "sha256": "ac69e754f36226a24c529fa8df6ae116fb0fbf30e365ed96757f9ee92d0dcec1"
+  },
+  {
+    "path": "source-workspace/v7_work/new_bulk/hugo2016/expression_gene_by_patient.csv",
+    "role": "full_expression",
+    "bytes": 10119272,
+    "sha256": "270fd5b671e7a98e3baed0c680ff13f87129f45375d8a6a273605f7d1c65a98e"
+  },
+  {
+    "path": "source-workspace/v7_work/extra_bulk/liu2019/expression_baseline_log2TPM1.csv.gz",
+    "role": "full_expression",
+    "bytes": 16138419,
+    "sha256": "d2a37b32abb1b2eb6e76403ab6dc360bee1f5c76eb6356d2ecce6e93371f937f"
+  },
+  {
+    "path": "source-workspace/v7_work/new_bulk/gide2019/expression_gene_by_patient.csv",
+    "role": "full_expression",
+    "bytes": 15700391,
+    "sha256": "b6daa27e8fd1e3b267090f639090051fc88f588ecf0a3b38aa55ff48730c2116"
+  },
+  {
+    "path": "source-workspace/v7_work/mapping/mapping_manifest.json",
+    "role": "HGNC_download_provenance",
+    "bytes": 295,
+    "sha256": "bd03dc4c136a6c0caf423eb0da1a15cb95a474296d92004fb801cc0ab585df33"
+  },
+  {
+    "path": "prepared-v7/inputs/bulk/GSE215868/clinical.csv",
+    "role": "score_free_clinical",
+    "bytes": 1585,
+    "sha256": "dd3e8befac0854039c37dae37411c265ed8ae87981cd1ad5a2531b9c9fb7a8bb"
+  },
+  {
+    "path": "prepared-v7/inputs/rank/GSE215868/source_symbol_expression.csv.gz",
+    "role": "historical_background_expression",
+    "bytes": 444977,
+    "sha256": "2bce7e24799d36a91a9587d24b84f8a01353922bc7ef52ae2714c5899550516b"
+  },
+  {
+    "path": "prepared-v7/inputs/bulk/GSE91061/clinical.csv",
+    "role": "score_free_clinical",
+    "bytes": 669,
+    "sha256": "ff3464c3768ec958f50a3a3da9b2f00d54d032d86e97d22adb4dd8f6dc712fcc"
+  },
+  {
+    "path": "prepared-v7/inputs/rank/GSE91061/source_symbol_expression.csv.gz",
+    "role": "historical_background_expression",
+    "bytes": 310483,
+    "sha256": "c05935f2a51a34e355a7df0ea3e89b4a66a036f67cf2926e28d63f7887b31a40"
+  },
+  {
+    "path": "prepared-v7/inputs/bulk/GSE78220/clinical.csv",
+    "role": "score_free_clinical",
+    "bytes": 427,
+    "sha256": "8d0bbf733c8cabd03baaed0b931187ae955388f06819e7b1a8f29c3ad99ee874"
+  },
+  {
+    "path": "prepared-v7/inputs/rank/GSE78220/source_symbol_expression.csv.gz",
+    "role": "historical_background_expression",
+    "bytes": 179169,
+    "sha256": "6b6d19d155b2e11b2f8b710c06a9c964605b620500a4bf30bd14cdf5eae38e64"
+  },
+  {
+    "path": "prepared-v7/inputs/bulk/Liu2019/clinical.csv",
+    "role": "score_free_clinical",
+    "bytes": 1527,
+    "sha256": "1e3b15eeae0129d6fafe0ffbfbd036687a495f00d6b6cc4e901bd9d30460897d"
+  },
+  {
+    "path": "prepared-v7/inputs/rank/Liu2019/source_symbol_expression.csv.gz",
+    "role": "historical_background_expression",
+    "bytes": 649446,
+    "sha256": "d6041eccaa8d917dde80bac82ba70717328b11d716c018bbefe85bbc0a9edc0d"
+  },
+  {
+    "path": "prepared-v7/inputs/bulk/Gide2019/clinical.csv",
+    "role": "score_free_clinical",
+    "bytes": 1396,
+    "sha256": "449fce421068ac08b05ac0f8e0563fbf7d97e1ed25cd9a594cfad84155dec793"
+  },
+  {
+    "path": "prepared-v7/inputs/rank/Gide2019/source_symbol_expression.csv.gz",
+    "role": "historical_background_expression",
+    "bytes": 303345,
+    "sha256": "994d98f132fdee350c60e8a4592fdddf87f73e5ca0dcf3ef17e8b3f05552fbe2"
+  },
+  {
+    "path": "v16-public/modules/Melanoma_immune_panel_Reproducibility_Addendum07/reference_results/addendum07/a07_random_gene_sets.npz",
+    "role": "validation_target_only",
+    "bytes": 478474,
+    "sha256": "efa3dd2598cd7534a49fed836d317262a7cbeb880dda97a8a1c1b3d03039b3cf"
+  },
+  {
+    "path": "v16-public/modules/Melanoma_immune_panel_Reproducibility_Addendum07/reference_results/addendum07/a07_response_metrics.csv",
+    "role": "aggregate_validation_target_only",
+    "bytes": 5078,
+    "sha256": "544c604b926dbd95404ed86afe19be52e4aa3969168bcd31b60fd5f0180f8427"
+  },
+  {
+    "path": "v16-public/modules/Melanoma_immune_panel_Reproducibility_Addendum10/reference_results/addendum10/a10_response_metrics.csv",
+    "role": "aggregate_validation_target_only",
+    "bytes": 9261,
+    "sha256": "fbf29cf9f7354b3373fc0b4c77b19841d5e588fa04c06ce7347c2e386e5d1ca9"
+  }
+]

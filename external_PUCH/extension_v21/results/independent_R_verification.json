@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tools": "R version 4.6.1 (2026-06-24)",
+  "patient_populations": [249, 55],
+  "standalone_rows_checked": 14,
+  "standalone_auc_max_abs_error": 4.440892098500626e-16,
+  "spearman_max_abs_error": 6.661338147750939e-16,
+  "frozen_coefficient_max_abs_error": 1.143529715363911e-14,
+  "external_frozen_auc_max_abs_error": 4.440892098500626e-16,
+  "external_frozen_brier_max_abs_error": 7.216449660063518e-16,
+  "scope": "Independent raw-to-point-estimate replay (base R ranks/U-statistic and nlminb ridge optimization). Main runner separately checks previously archived two-score intervals; this R replay does not verify the new interval endpoints."
+}

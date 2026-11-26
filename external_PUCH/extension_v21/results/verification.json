@@ -1,0 +1,24 @@
+{
+  "external_inputs": {
+    "mel_puch_exp_data.csv": "c0a0899b754d22de017e145156ab43acaa342f124dd9e19b1d8ec5add44a5065",
+    "mel_puch_cli_data.csv": "5e85f403aec37c180842cc40184a08f6ca2964080abc2b398d8601926aaec56d"
+  },
+  "available_genes": {
+    "IFN-4": 4,
+    "Four-gene": 4,
+    "ICR-20": 20,
+    "GEP-18": 18,
+    "Chemokine-12": 12,
+    "TLS-9": 9,
+    "APM-7": 7
+  },
+  "reproduced_prior_PUCH_fixed_scores_and_95CI": true,
+  "fixed_rank_reference_coverage": 733,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "auc_boot_seed": 20261123,
+  "rho_boot_seed": 20261124,
+  "bootstrap_draws": 5000,
+  "training_complete_before_loading_external_labels": true,
+  "conditional_inference": "AUC/Brier intervals use 5000 paired, outcome-stratified external patient resamples, conditional on scores or fitted models. Spearman intervals use 5000 unstratified paired patient resamples, conditional on scores."
+}

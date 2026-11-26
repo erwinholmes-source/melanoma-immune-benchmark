@@ -1,0 +1,77 @@
+{
+  "status": "eligible_separate_revision_stage_external_check",
+  "cohort": "PUCH; Cui et al., npj Genomic Medicine 2021, DOI 10.1038/s41525-021-00169-w",
+  "population": {
+    "clinical_file_n": 60,
+    "expression_file_n": 55,
+    "intersection_n": 55,
+    "clinical_without_expression_n": 5,
+    "CR_PR_n": 14,
+    "SD_n": 6,
+    "PD_n": 35,
+    "responders_n": 14,
+    "nonresponders_n": 41
+  },
+  "expression": {
+    "gene_rows": 20293,
+    "scale": "Author-deposited processed log-scale expression; no additional transformation",
+    "global_min": 0.0,
+    "global_max": 16.90547599161631,
+    "four_gene_coverage": 4,
+    "IFN4_coverage": 4
+  },
+  "scoring": "Positive mean of per-gene patient z-scores (ddof=1), estimated across all 55 patients without outcome labels",
+  "spearman_four_gene_IFN4": 0.8483405483405485,
+  "standalone_AUC": {
+    "four_gene": {
+      "auc": 0.7787456445993032,
+      "ci95": [
+        0.6045296167247387,
+        0.9285714285714286
+      ]
+    },
+    "IFN4": {
+      "auc": 0.7439024390243902,
+      "ci95": [
+        0.5714285714285714,
+        0.8937282229965157
+      ]
+    }
+  },
+  "paired_delta_AUC_four_gene_minus_IFN4": {
+    "estimate": 0.03484320557491294,
+    "ci95": [
+      -0.07495644599303139,
+      0.1480836236933798
+    ]
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20261123,
+    "method": "Outcome-stratified sampling with replacement; identical patients/resamples for both fixed scores; percentile CI"
+  },
+  "not_performed": [
+    "No gene reselection",
+    "No new cut-point",
+    "No fitting of an augmented prediction model",
+    "No pooling with the original four cohorts"
+  ],
+  "software": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "source_commit": "275be3c340e4cba698d085bc1a875b92dd45602c",
+  "source_repository": "https://github.com/xmuyulab/ims_gene_signature",
+  "input_hashes": {
+    "mel_puch_exp_data.csv": {
+      "bytes": 16844340,
+      "sha256": "c0a0899b754d22de017e145156ab43acaa342f124dd9e19b1d8ec5add44a5065",
+      "git_blob_sha1": "52dce854ae5c5cc869dace96335884eccbf18acf"
+    },
+    "mel_puch_cli_data.csv": {
+      "bytes": 1351,
+      "sha256": "5e85f403aec37c180842cc40184a08f6ca2964080abc2b398d8601926aaec56d",
+      "git_blob_sha1": "82e7c0f3cfd5a66fc9957e02fbec3ed60ad3e2c2"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Melanoma immune-signature benchmarking for anti-PD-1-based therapy: analysis code and aggregate results",
+  "description": "Code, aggregate results and reproducibility files accompanying the melanoma transcriptomic benchmark. The archive includes matched inflammatory reference tests, paired score comparisons and model transfer with training-cohort intercept diagnostics. Author code is licensed under MIT, author documentation and aggregate results under CC BY 4.0, and HGNC nomenclature under CC0. External patient data are obtained from their original sources. Xinyi Wang and Yuzhi Zheng share first authorship.",
+  "creators": [
+    {
+      "name": "Wang, Xinyi",
+      "affiliation": "Shenzhen Yantian District People's Hospital, Shenzhen, Guangdong 518000, China"
+    },
+    {
+      "name": "Zheng, Yuzhi",
+      "affiliation": "Shenzhen Second People's Hospital Dapeng Hospital, Shenzhen, Guangdong 518000, China"
+    },
+    {
+      "name": "Yang, Shan",
+      "affiliation": "Shenzhen Yantian District People's Hospital, Shenzhen, Guangdong 518000, China"
+    },
+    {
+      "name": "Si, Hongli",
+      "affiliation": "Shenzhen Yantian District People's Hospital, Shenzhen, Guangdong 518000, China"
+    },
+    {
+      "name": "Lin, Shiwen",
+      "affiliation": "Shenzhen Yantian District People's Hospital, Shenzhen, Guangdong 518000, China"
+    }
+  ],
+  "upload_type": "software",
+  "version": "v29",
+  "license": "MIT",
+  "keywords": [
+    "melanoma",
+    "immune checkpoint blockade",
+    "interferon-gamma",
+    "biomarker benchmarking",
+    "bioinformatics",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24001782",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

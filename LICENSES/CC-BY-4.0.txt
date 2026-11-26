@@ -1,0 +1,8 @@
+Author-created scientific protocols, documentation and aggregate numerical results in this release are licensed under the Creative Commons Attribution 4.0 International License (SPDX: CC-BY-4.0).
+
+Copyright 2026 Xinyi Wang, Yuzhi Zheng, Shan Yang, Hongli Si and Shiwen Lin.
+
+Canonical license and terms: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Credit the authors, cite the research/archive, link the license and indicate changes. This grant does not cover separately obtained third-party datasets, imported libraries or HGNC data, which retain their own terms. The links above incorporate the full license; this file is a scope notice, not a substitute license text.

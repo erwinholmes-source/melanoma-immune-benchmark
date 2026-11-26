@@ -1,0 +1,36 @@
+{
+  "raw_source_checksums": "all match",
+  "scope": "Reconstruction from cached original author/mirror files, with no use of old patient scores; this is not a fresh network availability test. All baseline patient ordering, response annotations, compact gene ordering and expression values checked against original archived prepared inputs.",
+  "checks": [
+    {
+      "cohort": "GSE215868",
+      "patient_order_and_response_identical": true,
+      "compact_gene_order_identical": true,
+      "max_abs_expression_difference": 0.0
+    },
+    {
+      "cohort": "GSE91061",
+      "patient_order_and_response_identical": true,
+      "compact_gene_order_identical": true,
+      "max_abs_expression_difference": 0.0
+    },
+    {
+      "cohort": "GSE78220",
+      "patient_order_and_response_identical": true,
+      "compact_gene_order_identical": true,
+      "max_abs_expression_difference": 8.881784197001252e-16
+    },
+    {
+      "cohort": "Liu2019",
+      "patient_order_and_response_identical": true,
+      "compact_gene_order_identical": true,
+      "max_abs_expression_difference": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "Gide2019",
+      "patient_order_and_response_identical": true,
+      "compact_gene_order_identical": true,
+      "max_abs_expression_difference": 0.0
+    }
+  ]
+}

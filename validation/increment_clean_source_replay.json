@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "comparisons": 24,
+  "bootstrap_draws_per_comparison": 500,
+  "max_abs_aggregate_difference": 1.1102230246251565e-16,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scope": "All 24 point estimates and 95% interval endpoints rebuilt from prepared source inputs and regenerated patient bootstrap multiplicities. No private precomputed weights, predictions or patient-score tables were required."
+}

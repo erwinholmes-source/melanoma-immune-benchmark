@@ -1,0 +1,11 @@
+background,cohort,draws_compared,max_abs_auc_difference,passed
+historical733,GSE91061,10000,0.0,True
+historical733,GSE78220,10000,0.0,True
+historical733,Liu2019,10000,0.0,True
+historical733,Gide2019,10000,0.0,True
+historical733,mean_independent4,10000,0.0,True
+inflamed142,GSE91061,10000,0.0,True
+inflamed142,GSE78220,10000,0.0,True
+inflamed142,Liu2019,10000,0.0,True
+inflamed142,Gide2019,10000,0.0,True
+inflamed142,mean_independent4,10000,0.0,True

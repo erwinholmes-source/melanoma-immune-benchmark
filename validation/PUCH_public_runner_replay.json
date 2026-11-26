@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "all_aggregate_JSON_fields_exact": true,
+  "original_source_git_blob_hashes_verified": true,
+  "patients": 55,
+  "responders": 14,
+  "scope": "Public runner executed on the hash-verified pinned author files with 5000 paired stratified resamples; inputs and patient-level values are not distributed."
+}

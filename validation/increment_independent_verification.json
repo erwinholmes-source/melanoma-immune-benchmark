@@ -1,0 +1,2050 @@
+{
+  "all_passed": true,
+  "check_count": 258,
+  "primary_checks": 24,
+  "bootstrap_checks": 234,
+  "max_abs_diff": 7.61282370476124e-10,
+  "coverage": "All 24 primary analyses; seven fixed draws plus all reduced-fold draws for each analysis. This is a sampled bootstrap check, not a complete second rerun.",
+  "checks": [
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.437163886843564e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 8.167036057854515e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.226796442210798e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 3.05478212170307e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.0200924266688958e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 5.97014625236536e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 9.37410739310085e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.0592804411402312e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 3.4683575456107008e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 9.20361009626447e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 9.75126533339643e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 1.500777280227794e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 5.388930621186283e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 1.4565132953892057e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 1.0740746833604042e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 1.4418856733589003e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 7.21089941230213e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.437163886843564e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 3.29346229108185e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 3.957001393217752e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 5.40260457898567e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 6.750307344344231e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 5.969860022991824e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 8.912327473242776e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.5343778331233793e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 9.71445146547012e-17,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 3.659893568763728e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 4.3920422854171193e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 1.1860314813594286e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 7.42432742888155e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 3.447776786291712e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 1.621036638255191e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 7.726238919480988e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 4.7099043415377295e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 6.8707413890256586e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.437163886843564e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.437732658621238e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.636968338658562e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 3.4601332216110947e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.019995282154241e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 5.968611022089121e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 3.572917135763465e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.1458741941416939e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 7.801355048075997e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 1.7551749983968357e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 1.3537504450766846e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 7.199574270089215e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 2.319699987651802e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 5.54217782777755e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 1.3132011103533792e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 2.8070427926518704e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 7.469783472324742e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "primary_probabilities",
+      "max_abs_diff": 4.666152603194362e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 5.598038525789217e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 4.494848937497409e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 8.022692753184568e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.020051010145907e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 5.969261543392612e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 9.373057885397884e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.2113704137006742e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 2.0359070332376383e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 3.028027915213949e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 2.280952336730646e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 1.3537504450766846e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 6.563305454676538e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 2.7492650083588144e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 9.280770596475918e-17,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 4.4244052865849426e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 1.4418856733589003e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 6.87055967674155e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.437163886843564e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.1639873093161057e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 4.2977843506264435e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 5.640904410242342e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.019995282154241e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 4.89926155200493e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.9583900473518767e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.2801771795412087e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 1.006705829809107e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 8.315570454442422e-14,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 6.324038515082009e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 1.3537504450766846e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 8.209155577532101e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 2.3198040710603607e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 5.271949543583787e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 1.454012778234759e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 1.441905622678874e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 6.870642076106659e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "primary_probabilities",
+      "max_abs_diff": 5.866835905976586e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.4424443844224255e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.226796442210798e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 5.155988483385165e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 7.292800044411685e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 85,
+      "max_abs_diff": 2.83672759761322e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 7.136770341364951e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 182,
+      "max_abs_diff": 1.0592804411402312e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 238,
+      "max_abs_diff": 1.0060147159762778e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.738809593149654e-13,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 275,
+      "max_abs_diff": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 289,
+      "max_abs_diff": 1.3537504450766846e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 311,
+      "max_abs_diff": 1.4532403058709065e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 348,
+      "max_abs_diff": 2.319699987651802e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 382,
+      "max_abs_diff": 2.2323476400742948e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 452,
+      "max_abs_diff": 2.3616331112918942e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 469,
+      "max_abs_diff": 6.352279813270911e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE91061",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 6.87055967674155e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "primary_probabilities",
+      "max_abs_diff": 6.572237198909647e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 2.38082331627254e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 2.4269641851759616e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 7.575662319680987e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 6.525169293780664e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 5.361128208036803e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 3.622872661590559e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 1.8116064204320992e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 8.343603585814208e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.563914718895944e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 2.2448709557920665e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.4297341088820303e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 1.4733769759800452e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 5.594635865691089e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.3595820649858759e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 1.0307311427981691e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 1.0604683797765802e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 2.5335289421946072e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "primary_probabilities",
+      "max_abs_diff": 5.643113754061346e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.1370959729362085e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.4297341088820303e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 3.116856772678034e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 6.071809721674981e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 5.361128208036803e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 8.317367627963534e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 4.8826775955745916e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 1.026612128640636e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "primary_probabilities",
+      "max_abs_diff": 6.854474765560781e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.5676959730370754e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.4297341088820303e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 7.575662319680987e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 1.1020739876244079e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.1697622037676325e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 1.207728361762861e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 1.0604683797765802e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 4.867772851468999e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "primary_probabilities",
+      "max_abs_diff": 5.815700143685376e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 5.602851516073315e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.4297341088820303e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 2.693373302165014e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 1.124322857037896e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.2378043862403274e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 4.515946644412239e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 1.0604683797765802e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 1.4447609775203318e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "primary_probabilities",
+      "max_abs_diff": 7.61282370476124e-10,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 2.6973923095141572e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.4297341088820303e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 7.597283913085562e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 1.1522982221179312e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 9.44636036059876e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 6.444095257407412e-12,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 332,
+      "max_abs_diff": 6.09384764871379e-11,
+      "passed": true
+    },
+    {
+      "cohort": "GSE78220",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 2.2762902673889585e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 5.712652573208743e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 1.0410283746153937e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.1163626406917047e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.820306902051044e-14,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 1.1275702593849246e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 2.851052727237402e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 2.2182949921401018e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 1.0321604682062002e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.796374243274613e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.813194535799539e-14,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 9.540979117872439e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 2.873257187729905e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 7.632783294297951e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 1.1579279202145187e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.819656380747553e-14,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 7.719519468096792e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 2.851052727237402e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 5.789813073420191e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 9.521272659185342e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 6.447620215510597e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.5575318812466321e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 3.5119129826455264e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 9.540979117872439e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.7199473229266857e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 5.220268661787486e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 9.020562075079397e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 1.474514954580286e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.813194535799539e-14,
+      "passed": true
+    },
+    {
+      "cohort": "Liu2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "primary_probabilities",
+      "max_abs_diff": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 3.270433403257389e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8646327971244547e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 3.5747420648601924e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.4492352590499422e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.1943818290237616e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 7.665378748411555e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Four-gene",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 2.74125340482545e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "primary_probabilities",
+      "max_abs_diff": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.062924054329173e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8646239066666404e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 2.738349477726665e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.4492352590499422e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.194230853871243e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "ICR-20",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 5.3040072334198385e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "primary_probabilities",
+      "max_abs_diff": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 7.683853553430708e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8645987531762387e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 5.236922007156863e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.4492352590499422e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.1942170302935438e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 6.647182804186968e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "GEP-18",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 9.540979117872439e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "primary_probabilities",
+      "max_abs_diff": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 2.040338384357021e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8646785504561336e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 8.297936990309118e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.4492352590499422e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 2.1942291733578756e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 2.9226621123257246e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "Chemokine-12",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 1.3094247908185253e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "primary_probabilities",
+      "max_abs_diff": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 1.0443321554753915e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8645918142823348e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 6.938893903907228e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 2.4492352590499422e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 5.238589076417277e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "TLS-9",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "primary_probabilities",
+      "max_abs_diff": 3.063151954307841e-10,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 0,
+      "max_abs_diff": 9.089395902606157e-13,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 1,
+      "max_abs_diff": 1.8646837546265616e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 2,
+      "max_abs_diff": 6.852157730108388e-17,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 17,
+      "max_abs_diff": 3.188561068824536e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 99,
+      "max_abs_diff": 5.869027486227196e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 249,
+      "max_abs_diff": 5.0665305284525175e-12,
+      "passed": true
+    },
+    {
+      "cohort": "Gide2019",
+      "panel": "APM-7",
+      "check": "bootstrap_metrics",
+      "draw": 499,
+      "max_abs_diff": 8.326672684688674e-17,
+      "passed": true
+    }
+  ]
+}

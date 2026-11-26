@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "release": "v20",
+  "screened_files": 90,
+  "participant_identifier_dictionary_size": 418,
+  "raw_source_bytes_absent": true,
+  "patient_scores_inputs_predictions_absent": true,
+  "personal_absolute_paths_absent": true,
+  "scope": "Original v19 allowlist plus exactly one original PUCH specification. Source-file hashes, participant identifiers, text/gzip/PDF metadata and NPZ strings/keys checked. No patient data included."
+}
